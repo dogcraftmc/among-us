@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/font-awesome.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/projects/among-us-interactive-map.css" />
+    <title>Among Us Interactive Guide</title>
+</head>
+
+<body>
+    <section>
+        <div class="menu">
+            <a href="index.html"><img src="assets/img/exit.png" id="exit" class="exitmenu"></a>
+            <h1>Among Us Impostor Map</h1>
+            <div>
+                <div class="submenu">
+                    <h3>Map</h3>
+                    <div class="map-name-container">
+                        <button id="skeld" class="map-name interactive">The Skeld</button>
+                        <button id="mira" class="map-name interactive">Mira HQ</button>
+                        <button id="polus" class="map-name interactive">Polus</button>
+                        <button id="airship" class="map-name interactive">Airship</button>
+                    </div>
+                </div>
+                <div id="mates-submenu">
+                    <div class="submenu">
+                        <h3>Mates</h3>
+                        <div class="icon-container">
+                            <img src="assets/img/amim/red-mate.webp" id="red-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/blue-mate.webp" id="blue-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/green-mate.webp" id="green-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/pink-mate.webp" id="pink-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/orange-mate.webp" id="orange-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/yellow-mate.webp" id="yellow-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/white-mate.webp" id="white-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/black-mate.webp" id="black-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/purple-mate.webp" id="purple-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/brown-mate.webp" id="brown-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/cyan-mate.webp" id="cyan-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/lime-mate.webp" id="lime-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/maroon-mate.webp" id="maroon-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/rose-mate.webp" id="rose-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/banana-mate.webp" id="banana-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/grey-mate.webp" id="grey-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/tan-mate.webp" id="tan-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/coral-mate.webp" id="coral-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/olive-mate.webp" id="olive-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/fortegreen-mate.webp" id="fortegreen-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/crewmate-mate.webp" id="crewmate-mate" class="mate-icon alive interactive">
+                            <img src="assets/img/amim/dogcraft-mate.webp" id="dogcraft-mate" class="mate-icon alive interactive">
+                        </div>
+                    </div>
+                    <div class="submenu">
+                        <h3>Corpses</h3>
+                        <div class="icon-container">
+                            <img src="assets/img/amim/red-dead.webp" id="red-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/blue-dead.webp" id="blue-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/green-dead.webp" id="green-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/pink-dead.webp" id="pink-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/orange-dead.webp" id="orange-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/yellow-dead.webp" id="yellow-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/white-dead.webp" id="white-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/black-dead.webp" id="black-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/purple-dead.webp" id="purple-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/brown-dead.webp" id="brown-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/cyan-dead.webp" id="cyan-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/lime-dead.webp" id="lime-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/maroon-dead.webp" id="maroon-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/rose-dead.webp" id="rose-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/banana-dead.webp" id="banana-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/grey-dead.webp" id="grey-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/tan-dead.webp" id="tan-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/coral-dead.webp" id="coral-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/olive-dead.webp" id="olive-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/fortegreen-dead.webp" id="fortegreen-dead" class="mate-icon dead interactive">
+                            <img src="assets/img/amim/crewmate-dead.webp" id="crewmate-dead" class="mate-icon dead interactive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reset-div">
+                <button id="btn-reset" class="reset-btn interactive">Reset</button>
+            </div>
+        </div>
+    
+        <div class="map-div">
+            <img src="assets/img/guides/skeld-guide.png" id="map-skeld" class="map">
+            <img src="assets/img/guides/mira-guide.png" id="map-mira" class="map">
+            <img src="assets/img/guides/polus-guide.png" id="map-polus" class="map">
+            <img src="assets/img/guides/airship-guide.jpeg" id="map-airship" class="map">
+        </div>
+    </section>
+
+    <footer>
+        <script src="assets/js/projects/script.js"></script>
+        <script src="assets/js/projects/among-us-interactive-map.js"></script>
+      </footer>
+
+
+
+</body>
+
+</html>
